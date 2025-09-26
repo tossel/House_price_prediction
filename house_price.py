@@ -6,7 +6,7 @@ import streamlit as st
 
  
     
-with open("C:\\Users\\HP\\Downloads\\house_price_prediction\\xgb.pkl", "rb") as pickle_in:
+with open("xgb.pkl", "rb") as pickle_in:
     model = pickle.load(pickle_in)
 
 def main():
