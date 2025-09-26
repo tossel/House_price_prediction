@@ -3,7 +3,7 @@ import numpy as np
 import streamlit as st
 
 # ✅ Load the trained XGBoost model
-model = pickle.load(open("c:/Users/HP/Downloads/xgb.pkl", 'rb'))
+model = pickle.load(open("C:\Users\HP\Downloads\house_price_prediction\xgb.pkl", 'rb'))
 
 def main():
     st.title("🏠 House Price Prediction App")
